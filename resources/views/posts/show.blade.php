@@ -11,23 +11,23 @@
      <table>
          <tr>
              <th>ID</th>
-             <td>{{ $posts->id }}</td>
+             <td>{{ $post->id }}</td>
          </tr>
          <tr>
              <th>タイトル</th>
-             <td>{{ $posts->title }}</td>
+             <td>{{ $post->title }}</td>
          </tr>
          <tr>
              <th>本文</th>
-             <td>{{ $posts->content }}</td>
+             <td>{{ $post->content }}</td>
          </tr>    
          <tr>
              <th>作成日</th>
-             <td>{{ $posts->created_at }}</td>            
+             <td>{{ $post->created_at }}</td>            
          </tr>
          <tr>
              <th>更新日時</th>
-             <td>{{ $posts->updated_at }}</td>
+             <td>{{ $post->updated_at }}</td>
          </tr>      
      </table>
  </body>
